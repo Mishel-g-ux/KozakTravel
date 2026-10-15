@@ -1,53 +1,8 @@
-# KozakTravel
+# Скріншоти
 
-Сайт туристичної агенції **KozakTravel**: перелік турів, новини компанії, відгуки клієнтів, форма зворотного зв'язку та бронювання.
+Сюди складаються скріншоти для звіту (назви за `CONVENTIONS.md`):
 
-**Сайт:** https://mishelodolsky2000.wixsite.com/my-site-3
-
-Сайт створено на конструкторі **Wix (Wix Harmony)**. Власного програмного коду та бекенду немає, тому цей репозиторій містить проєктну документацію, командні угоди, тест-кейси та матеріали спринту (Scrum) з навчальної дисципліни «Алгоритмізація і програмування ч.1» (практична робота № 2, НУ «Львівська політехніка», гр. ПП-16).
-
-## Команда
-
-| ПІБ | Роль у Scrum | Сторінка / розділ сайту |
-|---|---|---|
-| Сивицький Артем | Scrum Master | Відгуки, «Поділіться своїми подорожами» |
-| Одольський Мішель | Product Owner | Про нас, Контакти |
-| Лучинін Юрій | Development Team | Новини |
-| Дереновський Захар | Development Team | Тури по Америці |
-| Чура Павло | Development Team | Тури по Європі |
-| Ярко Арсеній | Development Team | Головна сторінка |
-| Сокольський Станіслав | Development Team | Тури по Азії |
-
-## Структура репозиторію
-
-| Файл / папка | Призначення |
-|---|---|
-| `README.md` | Опис проєкту, посилання на сайт, команда, структура репозиторію |
-| `CONVENTIONS.md` | Командна конвенція: гілки, коміти, назви файлів, стиль контенту |
-| `docs/requirements.md` | Стисла специфікація вимог до сайту |
-| `docs/roles.md` | Розподіл ролей Scrum |
-| `docs/product-backlog.md` | Product Backlog (user stories) |
-| `docs/sprint-backlog.md` | Sprint Backlog поточного спринту |
-| `docs/test-cases.md` | Тест-кейси (димові та інтеграційні) |
-| `docs/retrospective.md` | Підсумки спринту (Review та Retrospective) |
-| `sprint/burndown.csv` | Дані для діаграми згорання завдань |
-| `sprint/burndown.png` | Діаграма згорання завдань (Burndown Chart) |
-| `screenshots/` | Скріншоти сайту та інструментів |
-| `Doxyfile` | Налаштування автоматичної документації Doxygen |
-
-## Документація (Doxygen)
-
-Згенерувати HTML-документацію з файлів репозиторію:
-
-```
-doxygen Doxyfile
-```
-
-Результат з'явиться в папці `doxygen-out/html` (відкрити `index.html`).
-
-## Як працювати з репозиторієм
-
-1. Клонувати репозиторій через GitHub Desktop.
-2. Створити власну гілку за правилами з `CONVENTIONS.md`.
-3. Вносити зміни, робити commit і push, відкривати Pull request у `main`.
-4. Знайдені помилки заводити в **Issues**.
+- сторінки сайту: `main-page.png`, `tours-europe.png`, `tours-asia.png`, `tours-america.png`, `news.png`, `about-contact.png`, `reviews.png`;
+- GitHub: `repo-main.png`, `commits.png`, `pull-requests.png`, `issues.png`;
+- Doxygen: `doxygen-index.png`;
+- дошка задач спринту: `sprint-board.png`.

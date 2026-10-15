@@ -1,0 +1,22 @@
+# Doxyfile для проєкту KozakTravel (документація з Markdown-файлів)
+# Запуск: doxygen Doxyfile
+
+PROJECT_NAME           = "KozakTravel"
+PROJECT_BRIEF          = "Сайт туристичної агенції (Wix), документація проєкту"
+OUTPUT_DIRECTORY       = doxygen-out
+OUTPUT_LANGUAGE        = Ukrainian
+DOXYFILE_ENCODING      = UTF-8
+
+INPUT                  = README.md CONVENTIONS.md docs
+INPUT_ENCODING         = UTF-8
+FILE_PATTERNS          = *.md
+RECURSIVE              = YES
+USE_MDFILE_AS_MAINPAGE = README.md
+MARKDOWN_SUPPORT       = YES
+
+EXTRACT_ALL            = YES
+GENERATE_HTML          = YES
+HTML_OUTPUT            = html
+GENERATE_LATEX         = NO
+SOURCE_BROWSER         = NO
+QUIET                  = YES
